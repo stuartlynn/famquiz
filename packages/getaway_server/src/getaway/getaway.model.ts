@@ -102,7 +102,7 @@ export  class GetAway{
         ]
 
         this.questionNumber = 0
-        this.questionList = questions;
+        this.questionList = questions();
 
         this.currentQuestion = this.questionList.easy[this.questionNumber];
 

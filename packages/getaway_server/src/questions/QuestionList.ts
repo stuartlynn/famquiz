@@ -16,8 +16,30 @@ const changeFormat = (question)=>({
     correctAnswer: entities.decode(question.correct_answer)
 })
 
-export default {
-    easy: easy.map(changeFormat),
-    normal: normal.map(changeFormat),
-    hard : hard.map(changeFormat)
-}
+
+const shuffle = function (array) {
+
+	var currentIndex = array.length;
+	var temporaryValue, randomIndex;
+
+	// While there remain elements to shuffle...
+	while (0 !== currentIndex) {
+		// Pick a remaining element...
+		randomIndex = Math.floor(Math.random() * currentIndex);
+		currentIndex -= 1;
+
+		// And swap it with the current element.
+		temporaryValue = array[currentIndex];
+		array[currentIndex] = array[randomIndex];
+		array[randomIndex] = temporaryValue;
+	}
+
+	return array;
+
+};
+
+export default ()=>({
+    easy: shuffle(easy.map(changeFormat)),
+    normal: shuffle(normal.map(changeFormat)),
+    hard : shuffle(hard.map(changeFormat))
+})
