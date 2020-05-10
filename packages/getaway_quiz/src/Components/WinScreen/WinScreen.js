@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './WinScreen.scss'
 export default function WinScreen({winner}){
     return (
         <div className='win-screen'>

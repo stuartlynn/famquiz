@@ -10,12 +10,13 @@ export default function GameScreen({quizState, player, onSubmitAnswer, bet, onSe
     const playerAnswer  = quizState.currentAnswers.find(ans => ans.name === player)
     const playerScore   = quizState.scores.find(s => s.name === player)
     console.log("player score ", playerScore)
+    console.log('plaer is ', player)
     return (
         <div className='race-screen'>
             <Race players={quizState.players} 
                 positions={quizState.scores}
                 answers = {quizState.currentAnswers} />
-                { (quizState.currentState === 'show_question' && playerScore.alive) && 
+                { (quizState.currentState === 'show_question' &&  (player==='viewer' || (playerScore && playerScore.alive) )) && 
 
                     <>
                      {playerAnswer ?
@@ -33,16 +34,19 @@ export default function GameScreen({quizState, player, onSubmitAnswer, bet, onSe
                             question={quizState.currentQuestion} 
                             onSubmit={onSubmitAnswer}
                         />
-                        <PlayerBet 
-                            currentBet= {bet} 
-                            onBetChange={onSetBet} 
-                            />
+                        {player !=='viewer' && 
+                            <PlayerBet 
+                                currentBet= {bet} 
+                                onBetChange={onSetBet} 
+                                />
+                        }
                             </div>
+                     
                      }
                      </>
                 }
 
-                { (quizState.currentState === 'show_question' && !playerScore.alive) &&
+                { (quizState.currentState === 'show_question' && playerScore && !playerScore.alive) &&
                     <h1>You got caught by the police and locked up</h1>
                 }
 

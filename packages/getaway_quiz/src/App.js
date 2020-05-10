@@ -17,6 +17,7 @@ function App() {
 
 
   const onSubmitAnswer = (answer)=>{
+    
     submitAnswer(player, bet ,answer === quizState.currentQuestion.correctAnswer ,answer )
   } 
 

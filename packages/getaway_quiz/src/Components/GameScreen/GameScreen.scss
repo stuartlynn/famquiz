@@ -1,9 +1,17 @@
 .race-screen{
+    width:100%;
     .answers{
-        .user-answer{
-            color: red;
-            &.correct{
-                color:Green
+        .user-answers{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .user-answer{
+                color: red;
+                &.correct{
+                    color:Green
+                }
             }
         }
     }

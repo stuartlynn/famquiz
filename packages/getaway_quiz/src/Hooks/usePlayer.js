@@ -15,12 +15,15 @@ export const usePlayer =()=>{
 
 
     const submitJoined = (player)=>{
-        console.log("SUBMITTING JOINED ", player)
-        postAPI('join', {name: player })
+        if(player!=='viewer'){
+            postAPI('join', {name: player })
+        }
     }
 
     const submitLeft = (player)=>{
-        postAPI('left', {name: player })
+        if(player!=='viewer'){
+            postAPI('left', {name: player })
+        }
     }
 
     const updatePlayer = (name)=>{

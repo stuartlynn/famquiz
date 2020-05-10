@@ -9,10 +9,10 @@ export default function PlayerBet({currentBet, onBetChange}){
         <div className='player-bet'>
             <RadioGroup onChange={ (v) => onBetChange(v)} horizontal value={currentBet}>
                 <RadioButton value="coast">
-                    Coast
+                    Coast (+/- 1)
                 </RadioButton>
                 <RadioButton value="accelerate">
-                    Accelerate
+                    Accelerate (+/-2)
                 </RadioButton>
                 
             </RadioGroup>

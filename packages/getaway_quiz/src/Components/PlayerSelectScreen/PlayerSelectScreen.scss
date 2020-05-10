@@ -1,24 +1,37 @@
 .player-select-screen{
+    width:100%;
+    height:100%;
+
     .players{
         display:flex;
         flex-direction:row;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+        width:100%;
         .player{
             display: flex;
             flex-direction: column;
+            box-sizing: border-box;
+            padding:0px 20px;
+            
+            border:none;
             img{
                 filter: grayscale(100%);
+                object-fit: contain;
+                width:300px;
+                height:300px;
             }
             &.selected{
                 img{
-                    filter:none
+                    border:2px solid green;
+
                 }
             }
             &.joined{
-                box-sizing: border-box;
-                border:2px solid green;
+                img{
+                    filter:none
+                }
             }
         }
     }

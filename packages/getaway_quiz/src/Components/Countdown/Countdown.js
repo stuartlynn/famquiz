@@ -3,7 +3,7 @@ import './Countdown.scss'
 
 
 export default function Countdown(){
-    const [time, setTime ] = useState(10)
+    const [time, setTime ] = useState(5)
 
     useEffect(()=>{
         if(time >0){

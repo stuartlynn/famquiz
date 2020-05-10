@@ -4,7 +4,10 @@ import './PlayerSelectScreen.scss'
 export default function PlayerSelectScreen({players, onPlayerSelect, selectedPlayer}){
 
     const selectPlayer = (name)=>{
-        if( !players.find(p=>p.name === name).joined){
+        if(name==='viewer'){
+            onPlayerSelect(name)
+        }
+        if( name!=='viewer' && !players.find(p=>p.name === name).joined ){
             onPlayerSelect(name)
         }
     }
@@ -23,6 +26,8 @@ export default function PlayerSelectScreen({players, onPlayerSelect, selectedPla
                         <h3>{player.name}</h3>
                     </div>  
                 )}
+
+                <h1 className={selectedPlayer==='viewer' ? 'joined' : ''} onClick={()=> selectPlayer('viewer')}>Viewer</h1>
             </div>
         </div>
     )
