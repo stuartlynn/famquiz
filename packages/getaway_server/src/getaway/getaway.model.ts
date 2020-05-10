@@ -89,22 +89,23 @@ export  class GetAway{
     currentState: State;
     currentAnswers: PlayerAnswer[];
     winner: Player | null;
+    currentDifficulty : 'easy' | 'normal' | 'hard'
 
 
     constructor(){
         this.players = [
-            new Player( "Stuart And Nicole", 'https://images.dog.ceo/breeds/poodle-miniature/n02113712_1302.jpg'),
             new Player('Annie and Craig','https://images.dog.ceo/breeds/schnauzer-miniature/n02097047_2865.jpg'),
-            // new Player('Kirsten and Alex', 'https://images.dog.ceo/breeds/terrier-australian/n02096294_8467.jpg'),
-            // new Player('Luke and Aileen', 'https://images.dog.ceo/breeds/kuvasz/n02104029_110.jpg'),
-            // new Player('Connor', 'https://images.dog.ceo/breeds/bullterrier-staffordshire/n02093256_5295.jpg'),
-            // new Player('Anne and Nick','https://images.dog.ceo/breeds/setter-english/n02100735_4540.jpg')
+            new Player('Kirsten and Alex', 'https://images.dog.ceo/breeds/terrier-australian/n02096294_8467.jpg'),
+            new Player('Luke and Aileen', 'https://images.dog.ceo/breeds/kuvasz/n02104029_110.jpg'),
+            new Player('Connor', 'https://images.dog.ceo/breeds/bullterrier-staffordshire/n02093256_5295.jpg'),
+            new Player('Anne and Nick','https://images.dog.ceo/breeds/setter-english/n02100735_4540.jpg')
         ]
 
         this.questionNumber = 0
         this.questionList = questions();
+        this.currentDifficulty = 'easy'
 
-        this.currentQuestion = this.questionList.easy[this.questionNumber];
+        this.currentQuestion = this.questionList[this.currentDifficulty][this.questionNumber];
 
         this.currentState = State.WAITING_TO_START;
         this.currentAnswers=[];
@@ -127,7 +128,7 @@ export  class GetAway{
     }
 
     checkAllJoined(){
-        if(this.players.filter(p=>!p.joined).length === 0){
+        if(this.players.filter(p=>!p.joined).length === 0 && this.currentState === State.WAITING_TO_START){
 
             this.currentState= State.SHOW_QUESTION  
         }
@@ -151,7 +152,7 @@ export  class GetAway{
             this.currentState = State.SHOW_ANSWER
             setTimeout(()=>{
                 this.nextQuestion()
-            },10000)
+            },5000)
         }
     }
 
@@ -163,7 +164,16 @@ export  class GetAway{
         else{
             if(this.currentState = State.SHOW_ANSWER){
                 this.questionNumber = this.questionNumber + 1;
-                this.currentQuestion = this.questionList.easy[this.questionNumber];
+                if(this.questionNumber <=5){
+                    this.currentDifficulty='easy'
+                }
+                if(this.questionNumber> 5 && this.questionNumber <=10){
+                    this.currentDifficulty='normal'
+                }
+                if(this.questionNumber> 10 ){
+                    this.currentDifficulty='hard'
+                }
+                this.currentQuestion = this.questionList[this.currentDifficulty][this.questionNumber];
                 this.currentAnswers = []
                 this.currentState = State.SHOW_QUESTION
             }

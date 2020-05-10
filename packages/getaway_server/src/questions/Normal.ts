@@ -101,18 +101,7 @@ export default [
     "True"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Which of the following Ivy League universities has its official motto in Hebrew as well as in Latin?",
-    "correct_answer": "Yale University",
-    "incorrect_answers": [
-    "Princeton University",
-    "Harvard University",
-    "Columbia University"
-    ]
-    },
+   
     {
     "category": "General Knowledge",
     "type": "boolean",
@@ -213,18 +202,7 @@ export default [
     "False"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Which Italian automobile manufacturer gained majority control of U.S. automobile manufacturer Chrysler in 2011?",
-    "correct_answer": "Fiat",
-    "incorrect_answers": [
-    "Maserati",
-    "Alfa Romeo",
-    "Ferrari"
-    ]
-    },
+    ,
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -331,28 +309,7 @@ export default [
     "December 27th, 1894"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "boolean",
-    "difficulty": "medium",
-    "question": "Fast food restaurant chains Carl&#039;s Jr. and Hardee&#039;s are owned by the same company.",
-    "correct_answer": "True",
-    "incorrect_answers": [
-    "False"
-    ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "When was Hubba Bubba first introduced?",
-    "correct_answer": "1979",
-    "incorrect_answers": [
-    "1984",
-    "1972",
-    "1980"
-    ]
-    },
+   
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -377,18 +334,7 @@ export default [
     "Bras&iacute;l"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Where does water from Poland Spring water bottles come from?",
-    "correct_answer": "Maine, United States",
-    "incorrect_answers": [
-    "Hesse, Germany",
-    "Masovia, Poland",
-    "Bavaria, Poland"
-    ]
-    },
+    
     {
     "category": "General Knowledge",
     "type": "boolean",
@@ -399,18 +345,7 @@ export default [
     "False"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Computer manufacturer Compaq was acquired for $25 billion dollars in 2002 by which company?",
-    "correct_answer": "Hewlett-Packard",
-    "incorrect_answers": [
-    "Toshiba",
-    "Asus",
-    "Dell"
-    ]
-    },
+   
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -467,18 +402,7 @@ export default [
     "False"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Which country has the most Trappist breweries?",
-    "correct_answer": "Belgium",
-    "incorrect_answers": [
-    "Netherlands",
-    "France",
-    "USA"
-    ]
-    },
+  
     {
     "category": "General Knowledge",
     "type": "boolean",
@@ -513,18 +437,7 @@ export default [
     "Shinobi"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Which American manufactured submachine gun was informally known by the American soldiers that used it as &quot;Grease Gun&quot;?",
-    "correct_answer": "M3",
-    "incorrect_answers": [
-    "Colt 9mm",
-    "Thompson",
-    "MAC-10"
-    ]
-    },
+   
     {
     "category": "General Knowledge",
     "type": "boolean",
@@ -554,15 +467,6 @@ export default [
     "incorrect_answers": [
     "False"
     ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "boolean",
-    "difficulty": "medium",
-    "question": "Instant mashed potatoes were invented by Canadian Edward Asselbergs in 1962.",
-    "correct_answer": "True",
-    "incorrect_answers": [
-    "False"
-    ]
     }
+   
     ]

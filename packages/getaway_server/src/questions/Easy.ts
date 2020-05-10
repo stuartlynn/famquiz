@@ -27,48 +27,12 @@ export default   [
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Which company did Valve cooperate with in the creation of the Vive?",
-    "correct_answer": "HTC",
-    "incorrect_answers": [
-    "Oculus",
-    "Google",
-    "Razer"
-    ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "easy",
-    "question": "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
-    "correct_answer": "Demolition",
-    "incorrect_answers": [
-    "The Dream Team",
-    "The Bushwhackers",
-    "The British Bulldogs"
-    ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "easy",
     "question": "What is the first book of the Old Testament?",
     "correct_answer": "Genesis",
     "incorrect_answers": [
     "Exodus",
     "Leviticus",
     "Numbers"
-    ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "easy",
-    "question": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
-    "correct_answer": "Key",
-    "incorrect_answers": [
-    "Sword",
-    "Pen",
-    "Cellphone"
     ]
     },
     {
@@ -90,7 +54,7 @@ export default   [
     "question": "How would one say goodbye in Spanish?",
     "correct_answer": "Adi&oacute;s",
     "incorrect_answers": [
-    " Hola",
+    "Hola",
     "Au Revoir",
     "Salir"
     ]
@@ -153,18 +117,7 @@ export default   [
     "Benjamin Franklin"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "easy",
-    "question": "What geometric shape is generally used for stop signs?",
-    "correct_answer": "Octagon",
-    "incorrect_answers": [
-    "Hexagon",
-    "Circle",
-    "Triangle"
-    ]
-    },
+    
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -201,18 +154,7 @@ export default   [
     "10"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "easy",
-    "question": "Red Vines is a brand of what type of candy?",
-    "correct_answer": "Licorice",
-    "incorrect_answers": [
-    "Lollipop",
-    "Chocolate",
-    "Bubblegum"
-    ]
-    },
+    
     {
     "category": "General Knowledge",
     "type": "boolean",
@@ -355,18 +297,7 @@ export default   [
     "Kiwi Food Cut"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "easy",
-    "question": "What color is the &quot;Ex&quot; in FedEx Ground?",
-    "correct_answer": "Green",
-    "incorrect_answers": [
-    "Red",
-    "Light Blue",
-    "Orange"
-    ]
-    },
+    
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -379,18 +310,7 @@ export default   [
     "Victoria Line"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "easy",
-    "question": "How tall is the Burj Khalifa?",
-    "correct_answer": "2,722 ft",
-    "incorrect_answers": [
-    "2,717 ft",
-    "2,546 ft",
-    "3,024 ft"
-    ]
-    },
+   
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -433,19 +353,7 @@ export default   [
     "A flavor of Ben and Jerry&#039;s ice-cream",
     "A Psychological Disorder",
     "The Name of a Warner Brothers Cartoon Character"
-    ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "easy",
-    "question": "What company developed the vocaloid Hatsune Miku?",
-    "correct_answer": "Crypton Future Media",
-    "incorrect_answers": [
-    "Sega",
-    "Sony",
-    "Yamaha Corporation"
-    ]
+    ]    
     },
     {
     "category": "General Knowledge",
@@ -461,18 +369,6 @@ export default   [
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Which candy is NOT made by Mars?",
-    "correct_answer": "Almond Joy",
-    "incorrect_answers": [
-    "M&amp;M&#039;s",
-    "Twix",
-    "Snickers"
-    ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "easy",
     "question": "What zodiac sign is represented by a pair of scales?",
     "correct_answer": "Libra",
     "incorrect_answers": [
@@ -481,18 +377,7 @@ export default   [
     "Sagittarius"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "easy",
-    "question": "The likeness of which president is featured on the rare $2 bill of USA currency?",
-    "correct_answer": "Thomas Jefferson",
-    "incorrect_answers": [
-    "Martin Van Buren",
-    "Ulysses Grant",
-    "John Quincy Adams"
-    ]
-    },
+    
     {
     "category": "General Knowledge",
     "type": "multiple",

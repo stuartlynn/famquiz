@@ -12,18 +12,7 @@ export default
     "a-ha - Take On Me"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "What type of dog is &#039;Handsome Dan&#039;, the mascot of Yale University?",
-    "correct_answer": "Bulldog",
-    "incorrect_answers": [
-    "Yorkshire Terrier",
-    "Boxer",
-    "Pug"
-    ]
-    },
+    
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -118,18 +107,7 @@ export default
     "Psilocybin"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "Which of the following is an existing family in &quot;The Sims&quot;?",
-    "correct_answer": "The Goth Family",
-    "incorrect_answers": [
-    "The Family",
-    "The Simoleon Family",
-    "The Proud Family"
-    ]
-    },
+   
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -212,18 +190,7 @@ export default
     "Pineapple"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "Disney&#039;s Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?",
-    "correct_answer": "Harry",
-    "incorrect_answers": [
-    "Gus",
-    "Phineas",
-    "Ezra"
-    ]
-    },
+    
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -248,16 +215,7 @@ export default
     "Polish"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "boolean",
-    "difficulty": "hard",
-    "question": "In Scandinavian languages, the letter &Aring; means river.",
-    "correct_answer": "True",
-    "incorrect_answers": [
-    "False"
-    ]
-    },
+    
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -270,18 +228,7 @@ export default
     "155"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "De Eemhof, Port Zelande and Het Heijderbos are holiday villas owned by what company?",
-    "correct_answer": "Center Parcs",
-    "incorrect_answers": [
-    "Yelloh Village",
-    "Keycamp",
-    "Villa Plus"
-    ]
-    },
+   
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -330,50 +277,8 @@ export default
     "Past, present, and future"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "boolean",
-    "difficulty": "hard",
-    "question": "Stagecoach owned &quot;South West Trains&quot; before losing the rights to FirstGroup and MTR in March of 2017.",
-    "correct_answer": "True",
-    "incorrect_answers": [
-    "False"
-    ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "Virtual reality company Oculus VR lost which of it&#039;s co-founders in a freak car accident in 2013?",
-    "correct_answer": "Andrew Scott Reisse",
-    "incorrect_answers": [
-    "Nate Mitchell",
-    "Jack McCauley",
-    "Palmer Luckey"
-    ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "Who founded the Khan Academy?",
-    "correct_answer": "Sal Khan",
-    "incorrect_answers": [
-    "Ben Khan",
-    "Kitt Khan",
-    "Adel Khan"
-    ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "boolean",
-    "difficulty": "hard",
-    "question": "Spoon theory is a theory, utilizing &quot;Spoons&quot; as a metaphor for energy they can use in a day.",
-    "correct_answer": "True",
-    "incorrect_answers": [
-    "False"
-    ]
-    },
+   
+   
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -422,18 +327,7 @@ export default
     "Purple"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "Originally another word for poppy, coquelicot is a shade of what?",
-    "correct_answer": "Red",
-    "incorrect_answers": [
-    "Green",
-    "Blue",
-    "Pink"
-    ]
-    },
+    
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -446,18 +340,7 @@ export default
     "Swimming in freezing water"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "The Quadrangularis Reversum is best described as which of the following?",
-    "correct_answer": "A percussion instrument",
-    "incorrect_answers": [
-    "A building in Oxford University",
-    "A chess move",
-    "A geometric theorem"
-    ]
-    },
+   
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -494,18 +377,7 @@ export default
     "Flowers"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "Located in Chile, El Teniente is the world&#039;s largest underground mine for what metal?",
-    "correct_answer": "Copper",
-    "incorrect_answers": [
-    "Iron",
-    "Nickel",
-    "Silver"
-    ]
-    },
+    
     {
     "category": "General Knowledge",
     "type": "multiple",
@@ -518,42 +390,8 @@ export default
     "78"
     ]
     },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "In the MMO RPG &quot;Realm of the Mad God&quot;, what dungeon is widely considered to be the most difficult?",
-    "correct_answer": "The Shatter&#039;s",
-    "incorrect_answers": [
-    "Snake Pit",
-    "The Tomb of the Acient&#039;s",
-    "The Puppet Master&#039;s Theater"
-    ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "What is the weight of a Gold Bar in Fallout: New Vegas?",
-    "correct_answer": "35 Pounds",
-    "incorrect_answers": [
-    "30 Pounds",
-    "40 Pounds",
-    "32.50 Pounds"
-    ]
-    },
-    {
-    "category": "General Knowledge",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "In &quot;Battle Cats&quot;, what is Moneko / MISS Moneko&#039;s critical percentage rate?",
-    "correct_answer": "15%",
-    "incorrect_answers": [
-    "20%",
-    "10%",
-    "25%"
-    ]
-    },
+    
+    
     {
     "category": "General Knowledge",
     "type": "multiple",
