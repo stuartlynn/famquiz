@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e92bf2634a3a44b7462043ff9d3b6877",
+    "revision": "c02f7171d231a48b7ccd9fa62897a0ae",
     "url": "/famquiz/index.html"
   },
   {
-    "revision": "1136bd8ea2298ca3f213",
-    "url": "/famquiz/static/css/main.5e198081.chunk.css"
+    "revision": "8f9f9a3619b33aec3f26",
+    "url": "/famquiz/static/css/main.06ca30b4.chunk.css"
   },
   {
     "revision": "73638e9bd30e80a8c276",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/famquiz/static/js/2.5e9769ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1136bd8ea2298ca3f213",
-    "url": "/famquiz/static/js/main.49f032c0.chunk.js"
+    "revision": "8f9f9a3619b33aec3f26",
+    "url": "/famquiz/static/js/main.8dc53260.chunk.js"
   },
   {
     "revision": "295c4847e9fd998a9a8c",
