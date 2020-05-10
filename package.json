@@ -7,9 +7,8 @@
   "private": true,
   "scripts":{
     "start": "",
-    "deploy-viewer": "git subtree push --prefix packages/session-server heroku master"
+    "deploy-viewer": "git subtree push --prefix packages/getaway_server heroku master"
   },
-  "scripts":{
   "workspaces": [
     "packages/*"
   ],
