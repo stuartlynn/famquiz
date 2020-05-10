@@ -1,0 +1,25 @@
+.player-select-screen{
+    .players{
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .player{
+            display: flex;
+            flex-direction: column;
+            img{
+                filter: grayscale(100%);
+            }
+            &.selected{
+                img{
+                    filter:none
+                }
+            }
+            &.joined{
+                box-sizing: border-box;
+                border:2px solid green;
+            }
+        }
+    }
+}

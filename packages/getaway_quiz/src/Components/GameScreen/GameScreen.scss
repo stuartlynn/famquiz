@@ -1,0 +1,10 @@
+.race-screen{
+    .answers{
+        .user-answer{
+            color: red;
+            &.correct{
+                color:Green
+            }
+        }
+    }
+}

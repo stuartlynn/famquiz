@@ -1,0 +1,16 @@
+.player-bet{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .bet-option{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        input{
+            margin-left:20px;
+        }
+    }
+}
+
+
