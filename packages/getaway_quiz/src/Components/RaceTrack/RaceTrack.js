@@ -9,7 +9,7 @@ export default function RaceTrack({ player, position , submitted}) {
             {position.alive ? 
             <div className='race-track'>
                 <div className='space'>
-                    <img src='/police.png'/>
+                    <img src={`${process.env.PUBLIC_URL}/police.png`} />
                 </div>
                 {[...Array(10)].map((_, index) => (
                     <div key={index} className={`space ${index}`}>
