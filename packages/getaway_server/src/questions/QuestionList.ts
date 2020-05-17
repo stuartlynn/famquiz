@@ -3,17 +3,17 @@ import normal from './Normal'
 import hard from './Hard'
 
 const Entities = require('html-entities').XmlEntities;
- 
-const entities = new Entities();
- 
 
-const changeFormat = (question)=>({
-    question:entities.decode(question.question),
-    answers: [entities.decode(question.correct_answer), ...question.incorrect_answers.map(ans => entities.decode(ans))],
-    difficulty: question.difficulty,
-    type: question.type,
-    category: question.category,
-    correctAnswer: entities.decode(question.correct_answer)
+const entities = new Entities();
+
+
+const changeFormat = (question) => ({
+	question: entities.decode(question.question),
+	answers: shuffle([entities.decode(question.correct_answer), ...question.incorrect_answers.map(ans => entities.decode(ans))]),
+	difficulty: question.difficulty,
+	type: question.type,
+	category: question.category,
+	correctAnswer: entities.decode(question.correct_answer)
 })
 
 
@@ -38,8 +38,8 @@ const shuffle = function (array) {
 
 };
 
-export default ()=>({
-    easy: shuffle(easy.map(changeFormat)),
-    normal: shuffle(normal.map(changeFormat)),
-    hard : shuffle(hard.map(changeFormat))
+export default () => ({
+	easy: shuffle(easy.map(changeFormat)),
+	normal: shuffle(normal.map(changeFormat)),
+	hard: shuffle(hard.map(changeFormat))
 })
