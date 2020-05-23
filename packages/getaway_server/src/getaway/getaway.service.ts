@@ -10,7 +10,7 @@ export class GetAwayService {
   }
   
   restart(){
-    this.getaway = new GetAway()
+      this.getaway = new GetAway()
   }
 
   playerAnswered(name:string, bet:number, correct:boolean, answer:string){
