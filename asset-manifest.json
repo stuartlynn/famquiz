@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/famquiz/static/css/main.06ca30b4.chunk.css",
-    "main.js": "/famquiz/static/js/main.8dc53260.chunk.js",
-    "main.js.map": "/famquiz/static/js/main.8dc53260.chunk.js.map",
+    "main.js": "/famquiz/static/js/main.a5e961ab.chunk.js",
+    "main.js.map": "/famquiz/static/js/main.a5e961ab.chunk.js.map",
     "runtime-main.js": "/famquiz/static/js/runtime-main.080dcecc.js",
     "runtime-main.js.map": "/famquiz/static/js/runtime-main.080dcecc.js.map",
     "static/js/2.5e9769ee.chunk.js": "/famquiz/static/js/2.5e9769ee.chunk.js",
     "static/js/2.5e9769ee.chunk.js.map": "/famquiz/static/js/2.5e9769ee.chunk.js.map",
     "index.html": "/famquiz/index.html",
-    "precache-manifest.b0695cb5636067317e89d5715688a749.js": "/famquiz/precache-manifest.b0695cb5636067317e89d5715688a749.js",
+    "precache-manifest.583ac48625fe240911bbe175d9989528.js": "/famquiz/precache-manifest.583ac48625fe240911bbe175d9989528.js",
     "service-worker.js": "/famquiz/service-worker.js",
     "static/css/main.06ca30b4.chunk.css.map": "/famquiz/static/css/main.06ca30b4.chunk.css.map",
     "static/js/2.5e9769ee.chunk.js.LICENSE.txt": "/famquiz/static/js/2.5e9769ee.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.080dcecc.js",
     "static/js/2.5e9769ee.chunk.js",
     "static/css/main.06ca30b4.chunk.css",
-    "static/js/main.8dc53260.chunk.js"
+    "static/js/main.a5e961ab.chunk.js"
   ]
 }
