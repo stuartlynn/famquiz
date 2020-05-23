@@ -10,7 +10,6 @@ export default function GameScreen({quizState, player, onSubmitAnswer, bet, onSe
     const playerAnswer  = quizState.currentAnswers.find(ans => ans.name === player)
     const playerScore   = quizState.scores.find(s => s.name === player)
     console.log("player score ", playerScore)
-    console.log('plaer is ', player)
     return (
         <div className='race-screen'>
             <Race players={quizState.players} 
