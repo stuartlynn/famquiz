@@ -56,7 +56,7 @@ export class PlayerScore {
             this.score = Math.min(this.score + bet, MAXSCORE)
         }
         else {
-            this.score = Math.min(this.score - bet, MAXSCORE)
+            this.score = Math.max(this.score - bet, 0)
         }
         this.checkAlive()
     }
@@ -144,7 +144,7 @@ export class GetAway {
     }
 
     numberAlive() {
-        return this.scores.map(s => s.alive).length
+        return this.scores.filter(s => s.alive).length
     }
 
     checkAllAnswered() {
