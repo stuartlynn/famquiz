@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts":{
-    "start": "",
+    "start": "concurrently \"cd packages/getaway_quiz && yarn start \" \"cd packages/getaway_server && yarn start:dev \" ",
     "deploy-viewer": "git subtree push --prefix packages/getaway_server heroku master"
   },
   "workspaces": [
