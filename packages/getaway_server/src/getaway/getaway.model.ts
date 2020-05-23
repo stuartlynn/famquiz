@@ -56,7 +56,7 @@ export class PlayerScore{
             this.score = Math.min(this.score + bet, MAXSCORE )
         }
         else{
-            this.score = Math.min(this.score - bet, MAXSCORE )
+            this.score = Math.max(this.score - bet, 0 )
         }
         this.checkAlive()
     }
@@ -95,8 +95,8 @@ export  class GetAway{
     constructor(){
         this.players = [
             new Player('Annie and Craig','https://images.dog.ceo/breeds/schnauzer-miniature/n02097047_2865.jpg'),
-            new Player('Kirsten and Alex', 'https://images.dog.ceo/breeds/terrier-australian/n02096294_8467.jpg'),
-            new Player('Luke and Aileen', 'https://images.dog.ceo/breeds/kuvasz/n02104029_110.jpg'),
+            // new Player('Kirsten and Alex', 'https://images.dog.ceo/breeds/terrier-australian/n02096294_8467.jpg'),
+            // new Player('Luke and Aileen', 'https://images.dog.ceo/breeds/kuvasz/n02104029_110.jpg'),
             new Player('Connor', 'https://images.dog.ceo/breeds/bullterrier-staffordshire/n02093256_5295.jpg'),
             new Player('Anne and Nick','https://images.dog.ceo/breeds/setter-english/n02100735_4540.jpg')
         ]
@@ -129,7 +129,6 @@ export  class GetAway{
 
     checkAllJoined(){
         if(this.players.filter(p=>!p.joined).length === 0 && this.currentState === State.WAITING_TO_START){
-
             this.currentState= State.SHOW_QUESTION  
         }
     }
@@ -143,7 +142,7 @@ export  class GetAway{
     }
 
     numberAlive(){
-        return this.scores.map(s=>s.alive).length
+        return this.scores.filter(s=>s.alive).length
     }
 
     checkAllAnswered(){
