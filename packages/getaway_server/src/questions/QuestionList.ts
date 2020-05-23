@@ -3,7 +3,7 @@ import normal from './Normal'
 import hard from './Hard'
 
 const Entities = require('html-entities').XmlEntities;
- 
+
 const entities = new Entities();
  
 
@@ -38,8 +38,8 @@ const shuffle = function (array) {
 
 };
 
-export default ()=>({
-    easy: shuffle(easy.map(changeFormat)),
-    normal: shuffle(normal.map(changeFormat)),
-    hard : shuffle(hard.map(changeFormat))
+export default () => ({
+	easy: shuffle(easy.map(changeFormat)),
+	normal: shuffle(normal.map(changeFormat)),
+	hard: shuffle(hard.map(changeFormat))
 })
