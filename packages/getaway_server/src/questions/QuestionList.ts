@@ -9,7 +9,7 @@ const entities = new Entities();
 
 const changeFormat = (question)=>({
     question:entities.decode(question.question),
-    answers: [entities.decode(question.correct_answer), ...question.incorrect_answers.map(ans => entities.decode(ans))],
+    answers: shuffle([entities.decode(question.correct_answer), ...question.incorrect_answers.map(ans => entities.decode(ans))]),
     difficulty: question.difficulty,
     type: question.type,
     category: question.category,
